@@ -1,0 +1,79 @@
+/*
+ * Reset
+ */
+* {
+	margin: 0;
+	padding: 0;
+}
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+/*
+ * Typography
+ */
+html {
+	font-size: 100%;
+}
+body {
+	color: #5b6b73;
+	font-family: "Libre Baskerville", serif;
+	line-height: 1.618;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+	color: #0DC88E;
+	font-family: "Rubik", sans-serif;
+	font-weight: 400;
+	line-height: 1;
+	margin-bottom: 1.414rem;
+}
+h1 {
+  margin-top: 0;
+  font-size: 3.998em;
+}
+h2 {
+	font-size: 2.827em;
+}
+h3 {
+	font-size: 1.999em;
+}
+h4 {
+	font-size: 1.414em;
+}
+h5 {
+	font-size: 1em;
+}
+small,
+.font_small {
+	font-size: 0.707em;
+}
+p {
+	margin-bottom: 1.414rem;
+}
+/*
+ * Navbar
+ */
+.navbar {
+	font-family: "Rubik", sans-serif;
+	display: flex;
+}
+.navbar-item {
+	display: inline-flex;
+	padding: 0.4rem 0.8rem;
+}
+.navbar-link {
+	text-decoration: none;
+}
+/*
+ * Grid
+ */
+.container {
+	padding: 0 0.8rem;
+	margin: 0 auto;
+	max-width: 32rem;
+}
